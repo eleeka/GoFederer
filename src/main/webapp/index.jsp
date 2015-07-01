@@ -26,7 +26,7 @@ ps = con.prepareStatement(sql);
 ResultSet rs = ps.executeQuery(); 
 %>
 <center>
-<p>Select City :
+<p>Select City name here :
 <select name="cityname">
 <%
 while(rs.next())
